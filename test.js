@@ -9,7 +9,7 @@ function calculateTotal(items) {
 }
 
 function getUser(id, users) {
-    return users.find(user => user.id == id);
+    return user.find(user => user.id == id);
 }
 
 const products = [
