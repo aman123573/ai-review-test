@@ -12,6 +12,10 @@ function getUser(id, users) {
     return user.find(user => user.id === id);
 }
 
+function getEmployee(id, employees) {
+    return employees.find(employee => employee.id == id);
+}
+
 const products = [
     { price: 100 },
     { price: 200 }
