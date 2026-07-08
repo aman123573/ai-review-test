@@ -17,7 +17,7 @@ function getEmployee(id, employees) {
 }
 
 function getProduct(id, products) {
-    return products.find(product => product.id == id);
+    return products.find(product => product.id === id);
 }
 
 const products = [
